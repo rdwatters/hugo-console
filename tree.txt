@@ -7,7 +7,8 @@
 │   ├── event-03.md
 │   ├── event-04.md
 │   └── special
-│       └── _index.md
+│       ├── _index.md
+│       └── specs-01.md
 ├── posts
 │   ├── _index.md
 │   ├── posts-01.md
@@ -16,4 +17,4 @@
 └── tags
     └── _index.md
 
-4 directories, 12 files
+4 directories, 13 files
