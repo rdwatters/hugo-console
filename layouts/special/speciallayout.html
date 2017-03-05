@@ -2,15 +2,8 @@
 <main>
 <h2>Date Formatting</h2>
 <p>layout: layouts/special/speciallayout.html</p>
-
-<p><strong>Input value:</strong> {{.Date}}</p>
-
-<p><strong>{{ dateFormat "02 Jan 06 15:04 MST" .Date.Local }}</strong></p>
-
-{{ $we := .Params.whatever }}
-{{ $we | jsonify }}
-
-
+<p><strong>Note that this page has a declared type: special and layout: speciallayout</strong></p>
+{{ partial "table-page.html" . }}
 
 </main>
 {{ end }}
