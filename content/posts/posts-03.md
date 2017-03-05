@@ -4,8 +4,6 @@ publishdate = "2017-01-25"
 title = "Posts 03"
 description = "My description for post 03."
 draft = false
-type = "post"
-layout = "coolness"
 rating = "C+"
 tags = ["biz", "foo", "bar"]
 +++

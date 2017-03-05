@@ -1,5 +1,5 @@
 +++
-title = "SpecialS"
+title = "Special Directory Page"
 description = "This is where I put all my the specials"
 date = "2017-01-01"
 publishdate = "2017-01-10"
