@@ -1,6 +1,7 @@
 languageCode = "en-us"
 title = "SiteNam"
-baseurl = ""
+baseurl = "https://rdwatters.github.io/hugo-console"
+publishDir = "docs"
 
 [taxonomies]
 	tag = "tags"

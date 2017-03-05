@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PostsSec on SiteNam</title>
+    <link>https://rdwatters.github.io/hugo-console/posts/index.xml</link>
+    <description>Recent content in PostsSec on SiteNam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://rdwatters.github.io/hugo-console/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Posts 03</title>
+      <link>https://rdwatters.github.io/hugo-console/posts/posts-03/</link>
+      <pubDate>Wed, 22 Feb 2017 22:47:16 -0600</pubDate>
+      
+      <guid>https://rdwatters.github.io/hugo-console/posts/posts-03/</guid>
+      <description>&lt;p&gt;This is my third post content.&lt;/p&gt;
+
+&lt;p&gt;Theologizer carney unsurprising rheumarthritis rebill. Untwined prediscriminator indoors Lammastide scamander alternatingly biophagous idiostatic palaetiology Batis rumbler apprehensible. I ntraglobular crimpage hardfisted bridesmaid sphagnologist trypanolytic carol&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function myFunction(int) {
+    console.log(int * 4);
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posts 02</title>
+      <link>https://rdwatters.github.io/hugo-console/posts/posts-02/</link>
+      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rdwatters.github.io/hugo-console/posts/posts-02/</guid>
+      <description>&lt;p&gt;This is my second post content.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sit sunt deserunt impedit optio suscipit repellat eaque laboriosam ipsum modi, dolorem repellendus est reiciendis porro doloremque? Repudiandae fuga magnam inventore.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore esse impedit qui, id laudantium. Quibusdam eaque. Ratione perferendis, repellat porro. Obcaecati nam necessitatibus ut, quas et, velit qui maiores in!&lt;/p&gt;
+
+&lt;p&gt;Camelopardidae Talitha electroplax pereiopod galee spinelike revolutionizement yearday nephrolith. Pelomedusid antienthusiastic mycosterol acidimetry brilliance sultaness. Salicariaceae mimly giornatate phonogrammatic unacknowledgment bothsided Characeae surfle insanity.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Posts 01</title>
+      <link>https://rdwatters.github.io/hugo-console/posts/posts-01/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rdwatters.github.io/hugo-console/posts/posts-01/</guid>
+      <description>&lt;p&gt;This is my first post content.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero sit sunt deserunt impedit optio suscipit repellat eaque laboriosam ipsum modi, dolorem repellendus est reiciendis porro doloremque? Repudiandae fuga magnam inventore.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

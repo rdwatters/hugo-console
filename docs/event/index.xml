@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EventSec on SiteNam</title>
+    <link>https://rdwatters.github.io/hugo-console/event/index.xml</link>
+    <description>Recent content in EventSec on SiteNam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://rdwatters.github.io/hugo-console/event/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Specs 01</title>
+      <link>https://rdwatters.github.io/hugo-console/event/special/specs-01/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rdwatters.github.io/hugo-console/event/special/specs-01/</guid>
+      <description>&lt;p&gt;This is some content for the specs-01.md page found at content/event/special/specs-01.md&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Event 02</title>
+      <link>https://rdwatters.github.io/hugo-console/event/event-02/</link>
+      <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rdwatters.github.io/hugo-console/event/event-02/</guid>
+      <description>&lt;p&gt;This is some content for my second event.&lt;/p&gt;
+
+&lt;p&gt;Mythopoesis &lt;em&gt;appositionally&lt;/em&gt; disingenuously bees draffman mortarware planosol nonalluvial masterhood epilamellar. Magniloquent outstreet purport overbrood rebillet monogenic volley proteopexis. Obumbrant grouts nameboard hemiparasitic plectognathic unsatisfiedly.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, repellat debitis quam distinctio eligendi, ipsam fugit veniam incidunt. Architecto harum numquam inventore mollitia! Quasi incidunt neque, sed repellat! Sapiente, nobis!&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus rem perferendis qui quidem, molestiae quis, voluptate nihil rerum sint eius nisi exercitationem quia ducimus minus. Repellat sit, ea minima tempore.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Event 01</title>
+      <link>https://rdwatters.github.io/hugo-console/event/event-01/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rdwatters.github.io/hugo-console/event/event-01/</guid>
+      <description>&lt;p&gt;This is some content for my first event.&lt;/p&gt;
+
+&lt;p&gt;This is a second paragraph of content for my first event.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Event 04</title>
+      <link>https://rdwatters.github.io/hugo-console/event/event-04/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://rdwatters.github.io/hugo-console/event/event-04/</guid>
+      <description>&lt;p&gt;This is some content for my fourth event.&lt;/p&gt;
+
+&lt;p&gt;Mythopoesis appositionally disingenuously bees draffman mortarware planosol nonalluvial masterhood epilamellar. Magniloquent outstreet purport overbrood rebillet monogenic volley proteopexis. Obumbrant grouts nameboard hemiparasitic plectognathic unsatisfiedly.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, repellat debitis quam distinctio eligendi, ipsam fugit veniam incidunt. Architecto harum numquam inventore mollitia! Quasi incidunt neque, sed repellat! Sapiente, nobis!&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus rem perferendis qui quidem, molestiae quis, voluptate nihil rerum sint eius nisi exercitationem quia ducimus minus. Repellat sit, ea minima tempore.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Event 03</title>
+      <link>https://rdwatters.github.io/hugo-console/event/event-03/</link>
+      <pubDate>Sat, 14 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rdwatters.github.io/hugo-console/event/event-03/</guid>
+      <description>&lt;p&gt;This is some content for my third event.&lt;/p&gt;
+
+&lt;p&gt;Mythopoesis appositionally disingenuously bees draffman mortarware planosol nonalluvial masterhood epilamellar. Magniloquent outstreet purport overbrood rebillet monogenic volley proteopexis. Obumbrant grouts nameboard hemiparasitic plectognathic unsatisfiedly.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, repellat debitis quam distinctio eligendi, ipsam fugit veniam incidunt. Architecto harum numquam inventore mollitia! Quasi incidunt neque, sed repellat! Sapiente, nobis!&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus rem perferendis qui quidem, molestiae quis, voluptate nihil rerum sint eius nisi exercitationem quia ducimus minus. Repellat sit, ea minima tempore.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

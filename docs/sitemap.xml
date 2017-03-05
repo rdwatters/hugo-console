@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://rdwatters.github.io/hugo-console/event/event-03/</loc>
+    <lastmod>2017-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rdwatters.github.io/hugo-console/event/special/specs-01/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rdwatters.github.io/hugo-console/</loc>
+    <lastmod>2017-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rdwatters.github.io/hugo-console/posts/posts-03/</loc>
+    <lastmod>2017-02-22T22:47:16-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rdwatters.github.io/hugo-console/posts/</loc>
+    <lastmod>2017-02-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rdwatters.github.io/hugo-console/event/event-02/</loc>
+    <lastmod>2017-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rdwatters.github.io/hugo-console/posts/posts-02/</loc>
+    <lastmod>2017-01-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rdwatters.github.io/hugo-console/event/event-01/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rdwatters.github.io/hugo-console/event/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rdwatters.github.io/hugo-console/posts/posts-01/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rdwatters.github.io/hugo-console/event/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rdwatters.github.io/hugo-console/tags/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rdwatters.github.io/hugo-console/event/event-04/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rdwatters.github.io/hugo-console/tags/bar/</loc>
+    <lastmod>2017-02-22T22:47:16-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rdwatters.github.io/hugo-console/tags/baz/</loc>
+    <lastmod>2017-01-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rdwatters.github.io/hugo-console/tags/biz/</loc>
+    <lastmod>2017-01-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://rdwatters.github.io/hugo-console/tags/foo/</loc>
+    <lastmod>2017-01-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
