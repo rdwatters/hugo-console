@@ -12,6 +12,9 @@
 <body>
   <div id="wrapper">
     <a href="{{.Site.BaseURL}}">GO HOME</a>
+    {{with .Section}}
+    <a href="{{ . | relURL}}">Go to Section</a>
+    {{end}}
     <div class="content">
       <a href="/"><i class="fa fa-home"></i></a>
     </div>
