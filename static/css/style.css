@@ -1,0 +1,183 @@
+*,
+body,
+html {
+  font-family: 'Roboto Mono', 'Consolas', courier, monospace;
+  font-size: 14px;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+#wrapper {
+  display: inline-block;
+  width: 100vw;
+  height: 100vh;
+  padding: 1.5em;
+  margin: 0px;
+}
+
+h2 {
+  color: inherit;
+  font-size: 1.4em;
+  border-bottom: 1px solid black;
+}
+
+main,
+main.main {
+  display: inline-block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.output {
+  margin-bottom: 1em;
+}
+
+h3.ordering {
+  display: block;
+  width: 100%;
+  background-color: #01589B;
+  text-align: center;
+  color: white;
+  max-width: 1000px;
+  margin-bottom: 0px;
+  padding: 6px 0px;
+}
+
+h3.order:before,
+h3.ordering:before {
+  content:'{{ range\00a0';
+  display: inline-block;
+}
+
+h3.order:after,
+h3.ordering:after {
+  content: ' }}';
+  display: inline-block;
+}
+
+.content-source-org {
+  position: fixed;
+  display: block;
+  background-color: black;
+  width: 250px;
+  color: white;
+  top: 1em;
+  right: 1em;
+  padding: 1em;
+  overflow-y: scroll;
+  max-height: 85vh;
+}
+
+ul,
+ul li {
+  margin-bottom: .75em;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+i.fa.fa-home {
+  font-size: 32px;
+  display: block;
+  margin-top: 20px;
+}
+
+a,
+a:visited {
+  color: #01589B;
+  font-weight: bold;
+}
+
+table {
+  display: block;
+  max-width: 1000px;
+  overflow-x: scroll;
+}
+
+table.page-variables {
+  max-width: 800px;
+}
+
+table caption {
+  background-color: #01589B;
+  color: white;
+}
+
+thead > tr td {
+  background-color: black;
+  color: white;
+  border-left: 1px solid white;
+  font-size: .8em;
+  padding: .3em 0px .3em .2em;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: #cccccc;
+}
+
+tbody > tr > td {
+  font-size: .8em;
+  padding: .3em 0px .3em .2em;
+  min-width: 100px;
+  border-right: 1px solid black;
+}
+
+tbody > tr > td a {
+  font-size: 1em;
+}
+
+thead > tr > td:first-child,
+tbody > tr > td:first-child {
+  border-left: 1px solid black;
+}
+
+thead > tr > td:last-child,
+tbody > tr > td:last-child {
+  border-right: 1px solid black;
+}
+
+tbody > tr:last-child {
+  border-bottom: 1px solid black;
+}
+
+td.index,
+td.weight {
+  width: 44px;
+  max-width: 44px;
+}
+
+td.path {
+  min-width: 180px;
+}
+
+td.url {
+  min-width: 140px;
+}
+
+td.title {
+  max-width: 74px;
+}
+
+td.filepath {
+  min-width: 180px;
+}
+
+td.page-content {
+  font-size: 12px!important;
+  overflow-x: scroll;
+}
+
+td.page-content h2,
+td.page-content p,
+td.page-content em,
+td.page-content strong {
+  font-size: 12px!important;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+thead > tr td.variable {
+  min-width: 180px;
+}

@@ -1,0 +1,30 @@
+{{define "main"}}
+	<h2>.Site.Title: {{.Site.Title}}; .Hugo.Version: {{.Hugo.Version}}</h2>
+	<p>template = layouts/index.html</p>
+	{{ partial "table-page.html" . }}
+
+
+	<h3 class="ordering">where .Site.Pages "Kind" "section"</h3>
+	{{ partial "table-lists.html" (where .Site.Pages "Kind" "section")}}
+
+	<h3 class="ordering">where .Site.Pages "Section" "posts"</h3>
+	{{ partial "table-lists.html" (where .Site.Pages "Section" "posts")}}
+
+	<h3 class="ordering">where .Site.Pages "Section" "event"</h3>
+	{{ partial "table-lists.html" (where .Site.Pages "Section" "event")}}
+
+	<h3 class="ordering">.Data.Pages</h3>
+	{{ partial "table-lists.html" (.Site.Pages)}}
+
+	<h3 class="ordering">.Site.RegularPages</h3>
+	{{ partial "table-lists.html" (.Site.RegularPages)}}
+
+	<h3 class="ordering">.Site.AllPages</h3>
+	{{ partial "table-lists.html" (.Site.AllPages)}}
+
+	<h3 class="ordering">.Data.Pages.ByParam "rating"</h3>
+	{{ partial "table-lists.html" (.Data.Pages.ByParam "rating")}}
+
+{{end}}
+
+

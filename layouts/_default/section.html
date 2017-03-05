@@ -1,0 +1,8 @@
+{{ define "main" }}
+<div class="content">
+	<p>layout: layouts/_default/section.html</p>
+	{{ partial "table-page.html" . }}
+	<h3 class="ordering">.Date.Pages</h3>
+	{{ partial "table-lists.html" (.Data.Pages) }}
+</div>
+{{ end }}

@@ -1,0 +1,10 @@
+languageCode = "en-us"
+title = "SiteNam"
+baseurl = ""
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+
+[params]
+	examplebaseurl = "http://yoursite.com"

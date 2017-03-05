@@ -1,0 +1,43 @@
+<table class="page-variables">
+	<caption>Page Variables for {{.File.Path}}</caption>
+	<thead>
+		<tr>
+			<td class="variable">Variable</td>
+			<td>Value</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<tr><td>.Title</td><td>{{.Permalink}}</td></tr>
+			<tr><td>.Site.BaseURL</td><td>{{.Site.BaseURL}}</td></tr>
+			<tr><td>.Permalink</td><td>{{.Permalink}}</td></tr>
+			<tr><td>.RelPermalink</td><td>{{.RelPermalink}}</td></tr>
+			<tr><td>.Section</td><td>{{with .Section}}{{.}}{{else}}NA{{end}}</td></tr>
+			<tr><td>.Layout</td><td>{{with .Layout}}{{.}}{{else}}NA{{end}}</td></tr>
+			<tr><td>.Type</td><td>{{.Type}}</td></tr>
+			<tr><td>.Kind</td><td>{{.Kind}}</td></tr>
+			<tr><td>.Path</td><td>{{.Path}}</td></tr>
+			<tr><td>.File.Path</td><td>{{.File.Path}}</td></tr>
+			<tr><td>.File.LogicalName</td><td>{{.File.LogicalName}}</td></tr>
+			<tr><td>.Date.Format "2006-01-02"</td><td>{{.Date.Format "2006-01-02"}}</td></tr>
+			<tr><td>.PublishDate.Format "2006-01-02"</td><td>{{.PublishDate.Format "2006-01-02"}}</td></tr>
+			<tr><td>.ExpiryDate.Format "2006-01-02"</td><td>{{.ExpiryDate.Format "2006-01-02"}}</td></tr>
+			<tr><td>.IsDraft</td><td>{{.IsDraft}}</td></tr>
+			<tr><td>.IsHome</td><td>{{.IsHome}}</td></tr>
+			<tr><td>.IsPage</td><td>{{.IsPage}}</td></tr>
+			{{ with .Prev }}
+			<tr><td>.Prev.Title</td><td>{{.Title}}</td></tr>
+			{{ end }}
+			{{ with .Next }}
+			<tr><td>.Next.Title</td><td>{{.Title}}</td></tr>
+			{{ end }}
+			{{ with .PrevInSection }}
+			<tr><td>.PrevInSection.Title</td><td>{{.Title}}</td></tr>
+			{{ end }}
+			{{ with .NextInSection }}
+			<tr><td>.NextInSection.Title</td><td>{{.Title}}</td></tr>
+			{{ end }}
+			<tr><td class="page-content">.Content</td><td class="page-content">{{.Content}}</td></tr>
+		</tr>
+	</tbody>
+</table>

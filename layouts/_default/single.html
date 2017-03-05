@@ -1,0 +1,25 @@
+{{define "main"}}
+<main>
+	<p>layout: _default/single.html<p>
+	{{ partial "table-page.html" . }}
+
+	<div class="body-copy">
+	<p><strong>.Content:</strong></p>
+	{{.Content}}
+	{{ with .Prev }}
+	<a href="{{.Permalink}}"><strong>.Prev.Title: {{.Title}} | .Date: {{.Date.Format "2006-01-02"}} | .PublishDate: {{.PublishDate.Format "2006-01-02"}}</a><br><br>
+	{{ end }}
+	{{ with .PrevInSection }}
+	<a href="{{.Permalink}}"><strong>.PrevInSection.Title: {{.Title }} | .Date: {{.Date.Format "2006-01-02"}} | .PublishDate: {{.PublishDate.Format "2006-01-02"}}</a><br><br>
+	{{ end }}
+	<hr>
+	{{ with .Next }}
+	<a href="{{.Permalink}}"><strong>.Next.Title: {{.Title}} | .Date: {{.Date.Format "2006-01-02"}} | .PublishDate: {{.PublishDate.Format "2006-01-02"}}</a><br><br>
+	{{ end }}
+	{{ with .NextInSection }}
+	<br>
+	<a href="{{.Permalink}}"><strong>.NextInSection.Title: {{ .Title }} | .Date: {{.Date.Format "2006-01-02"}} | .PublishDate: {{.PublishDate.Format "2006-01-02"}}</a>
+	{{ end }}
+	</div>
+</main>
+{{end}}

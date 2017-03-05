@@ -1,0 +1,19 @@
+.
+├── _index.md
+├── event
+│   ├── _index.md
+│   ├── event-01.md
+│   ├── event-02.md
+│   ├── event-03.md
+│   ├── event-04.md
+│   └── special
+│       └── _index.md
+├── posts
+│   ├── _index.md
+│   ├── posts-01.md
+│   ├── posts-02.md
+│   └── posts-03.md
+└── tags
+    └── _index.md
+
+4 directories, 12 files

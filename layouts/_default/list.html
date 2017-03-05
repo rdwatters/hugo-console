@@ -1,0 +1,6 @@
+{{ define "main" }}
+	<h1>Layout: <code>layouts/_default/list.html</code></h1>
+	{{ range .Data.Pages }}
+	<a href="{{.Permalink}}">{{.Title}}</a>
+	{{ end }}
+{{ end }}

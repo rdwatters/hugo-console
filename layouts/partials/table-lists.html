@@ -1,0 +1,36 @@
+<table>
+  <thead>
+    <tr>
+      <td>index</td>
+      <td>.Title</td>
+      <td>.Path</td>
+      <td>.File.Path</td>
+      <td>.Date</td>
+      <td>.PublishDate</td>
+      <td>.URL</td>
+      <td>.Weight</td>
+      <td>.Section</td>
+      <td>.Type</td>
+      <td>.Kind</td>
+      <td>.Params.rating</td>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $ind, $page := . }}
+    <tr>
+      <td class="index">{{if lt (len ($ind |string)) 2}}0{{end}}{{$ind}}</td>
+      <td class="title"><a href="{{$page.Permalink}}">{{$page.Title}}</a></td>
+      <td class="path">{{$page.Path}}</td>
+      <td class="filepath">{{$page.File.Path}}</td>
+      <td class="date">{{$page.Date.Format "2006-01-02"}}</td>
+      <td class="publishdate">{{$page.PublishDate.Format "2006-01-02"}}</td>
+      <td class="url">{{$page.URL}}</td>
+      <td class="weight">{{with $page.Weight}}0{{.}}{{else}}NA{{end}}</td>
+      <td class="section">{{with $page.Section}}{{.}}{{else}}{{.}}{{end}}</td>
+      <td class="type">{{$page.Type}}</td>
+      <td class="kind">{{$page.Kind}}</td>
+      <td class="rating">{{with $page.Params.rating}}{{.}}{{else}}NA{{end}}</td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
